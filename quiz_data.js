@@ -112,8 +112,8 @@ const quizData = [
   {
     question: "Sebuah blok deklarasi terdiri dari beberapa deklarasi yang dipisahkan oleh.....",
     options: [
-      "A. ",
-      "B. >",
+      "A. .",
+      "B. &gt",
       "C. ,",
       "D. )"
     ],
@@ -122,10 +122,10 @@ const quizData = [
   {
     question: "Tag enumerasi untuk membuat daftar dimana tiap bagiannya memiliki nomor secara berurut adalah...",
     options: [
-      "A. <ul>",
-      "B. <tr>",
+      "A. &ltul&gt;",
+      "B. &lttr&gt;",
       "C. col",
-      "D. <li>"
+      "D. &ltli&gt;"
     ],
     answer: "<ol>"
   },
@@ -230,16 +230,6 @@ const quizData = [
     answer: "A. Localisation"
   },
   {
-    question: "Mampu meningars data dalam skala besar dengan jumlah resource lebih dari 50 juta dan 60 ribu tabel serta 5 miliar bans adalah...",
-    options: [
-      "A. Command dan Function",
-      "B. Security",
-      "C. Scalability dan Limits",
-      "D. Column Types"
-    ],
-    answer: "C. Scalability dan Limits"
-  },
-  {
     question: "Tipe data PHP yang menyimpan nilai bilangan bulat adalah",
     options: [
       "A. Integer",
@@ -332,10 +322,10 @@ const quizData = [
   {
     question: "HTML yang benar untuk membuat sebuah hyperlink adalah:",
     options: [
-      "A. <a href='http://www.gunadarma.ac.id'>Universitas Gunadarma</a>",
-      "B. <a name='http://www.gunadarma.ac.id'> Universitas Gunadarma </a>",
-      "C. <a url='http://www.gunadarma.ac.id'> gunadarma.ac.id</a>",
-      "D. <a>http://www.gunadarma.ac.id</a>"
+      "A. &lta href='http://www.gunadarma.ac.id'&gtUniversitas Gunadarma&lt/a&gt",
+      "B. &lta name='http://www.gunadarma.ac.id'&gt Universitas Gunadarma &lt/a&gt",
+      "C. &lta url='http://www.gunadarma.ac.id'&gt gunadarma.ac.id&lt/a&gt",
+      "D. &lta&gthttp://www.gunadarma.ac.id&lt/a&gt"
     ],
     answer: "A. <a href='http://www.gunadarma.ac.id'>Universitas Gunadarma</a>"
   },
@@ -350,26 +340,6 @@ const quizData = [
     answer: "C. $"
   },
   {
-    question: "CMS dapat memberikan pengaturan yang fleksibilitas dalam:",
-    options: [
-      "A. Hak akses dan Workline",
-      "B. Workflow dan Hak Angket",
-      "C. Alur Kerja dan Workline",
-      "D. Workflow (alur kerja) dan Hak akses"
-    ],
-    answer: "D. Workflow (alur kerja) dan Hak akses"
-  },
-  {
-    question: "Hasil dari kompilasi program Java adalah:",
-    options: [
-      "A. exe",
-      "B. asm",
-      "C. bytecode",
-      "D. Bahasa Mesin (biner)"
-    ],
-    answer: "C. bytecode"
-  },
-  {
     question: "Bahasa JavaScript mirip dengan bahasa:",
     options: [
       "A. HTML/Java",
@@ -378,16 +348,6 @@ const quizData = [
       "D. Java/Pascal"
     ],
     answer: "B. Java/C++"
-  },
-  {
-    question: "Cara mengkompilasi file Java yang benar adalah:",
-    options: [
-      "A. javac HelloWorld.java",
-      "B. javac HelloWorld",
-      "C. java HelloWorld.java",
-      "D. java HelloWorld.javac"
-    ],
-    answer: "A. javac HelloWorld.java"
   },
   {
     question: "Script yang digunakan untuk menampilkan output seperti 4 + 5 adalah:",
@@ -400,7 +360,7 @@ const quizData = [
     answer: "D. echo(“4+5=”.4+5);"
   },
   {
-    question: "Hasil yang ditampilkan pada browser untuk <h1> adalah:",
+    question: "Hasil yang ditampilkan pada browser untuk &lth1&gt adalah:",
     options: [
       "A. Text dengan garis atas",
       "B. Text dengan garis bawah",
@@ -410,7 +370,7 @@ const quizData = [
     answer: "A. Text dengan garis atas"
   },
   {
-    question: "Hasil yang ditampilkan pada browser untuk <h2> adalah:",
+    question: "Hasil yang ditampilkan pada browser untuk &lth2&gt adalah:",
     options: [
       "A. Text dengan garis bawah",
       "B. Text dengan garis tengah",
@@ -420,7 +380,7 @@ const quizData = [
     answer: "B. Text dengan garis tengah"
   },
   {
-    question: "Hasil yang ditampilkan pada browser untuk <h3> adalah:",
+    question: "Hasil yang ditampilkan pada browser untuk &lth3&gt adalah:",
     options: [
       "A. Text dengan garis bawah",
       "B. Text dengan garis tengah",
@@ -430,7 +390,7 @@ const quizData = [
     answer: "A. Text dengan garis bawah"
   },
   {
-    question: "Hasil yang ditampilkan pada browser untuk <a> adalah:",
+    question: "Hasil yang ditampilkan pada browser untuk &lta&gt adalah:",
     options: [
       "A. Text dengan hyperlink",
       "B. Text tanpa hyperlink",
@@ -452,31 +412,31 @@ const quizData = [
   {
     question: "Kode stylesheet internal dituliskan di bagian:",
     options: [
-      "A. <HTML>",
-      "B. <BODY>",
-      "C. <HEAD>",
-      "D. <TITLE>"
+      "A. &ltHTML&gt",
+      "B. &ltBODY&gt",
+      "C. &ltHEAD&gt",
+      "D. &ltTITLE&gt"
     ],
     answer: "C. <HEAD>"
   },
   {
     question: "Untuk mengaitkan stylesheet eksternal dengan nama 'styleku.css':",
     options: [
-      "A. <link rel = 'stylesheet' type = 'text/css' href = 'styleku.css'>",
-      "B. <style = 'text/css'>",
-      "C. <style = 'text/css' href = 'styleku.css'>"
+      "A. &ltlink rel = 'stylesheet' type = 'text/css' href = 'styleku.css'&gt",
+      "B. &ltstyle = 'text/css'&gt",
+      "C. &ltstyle = 'text/css' href = 'styleku.css'&gt"
     ],
     answer: "A. <link rel = 'stylesheet' type = 'text/css' href = 'styleku.css'>"
   },
   {
     question: "Tag tertentu yang memerintahkan navigator untuk memperlakukan bahwa skrip tersebut adalah skrip dari JavaScript:",
     options: [
-      "A. <script language = 'java script'> </script>",
-      "B. <? = 'java script'> </?>",
-      "C. <% language = 'java script'> </%>",
+      "A. &ltscript language = 'javascript'&gt &lt/script&gt",
+      "B. &lt? = 'javascript'&gt &lt/?&gt",
+      "C. &lt% language = 'javascript'&gt &lt/%&gt",
       "D. Semua Salah"
     ],
-    answer: "A. <script language = 'java script'> </script>"
+    answer: "A. <script language = 'javascript'> </script>"
   },
   {
     question: "Untuk mengakses sebuah properti, perlu penulisan dengan bentuk sebagai berikut:",
@@ -489,12 +449,12 @@ const quizData = [
     answer: "A. nama_objek.nama_properti"
   },
   {
-    question: "Perhatikan program di bawah ini: <HTML><HEAD><TITLE>Contohfor</TITLE></HEAD><BODY><SCRIPT LANGUAGE = 'javaScript'>//var X = 0; for (X = 10; X <= 15; X++) document.write(X + '<BR>');//</SCRIPT></BODY></HTML> Output program diatas adalah:",
+    question: "Perhatikan program di bawah ini: &ltHTML&gt<br>&ltHEAD&gt<br>&ltTITLE&gtContohfor&lt/TITLE&gt<br>&lt/HEAD&gt<br>&ltBODY&gt<br>&ltSCRIPT LANGUAGE = 'javaScript'&gt<br>\"var X = 0;<br> for (X = 10; X &lt= 15; X++)<br> document.write(X + '&ltBR&gt');\"<br>&lt/SCRIPT&gt<br>&lt/BODY&gt<br>&lt/HTML&gt <br>Output program diatas adalah:",
     options: [
       "A. 10",
-      "B. 11 11 12 12 13 13 14 14 15 15",
+      "B. 11 <br> 11 <br> 12 <br> 12 <br> 13 <br> 13 <br> 14 <br> 14 <br> 15 <br> 15",
       "C. 10",
-      "D. Semua salah 11 12 13 14"
+      "D. Semua salah"
     ],
     answer: "B. 11 11 12 12 13 13 14 14 15 15"
   },
@@ -519,56 +479,17 @@ const quizData = [
     answer: "C. Server side scripting"
   },
   {
-    question: "Pilihlah pernyataan di bawah ini yang benar:",
-    options: [
-      "A. Semua elemen XML harus ditulis menggunakan huruf kecil",
-      "B. Semua dokumen XML harus mempunyai sebuah DTD",
-      "C. Semua elemen XML harus mempunyai tag pembuka dan tag penutup",
-      "D. Penulisan script XML lebih mudah dibandingkan dari HTML"
-    ],
-    answer: "C. Semua elemen XML harus mempunyai tag pembuka dan tag penutup"
-  },
-  {
-    question: "XML merupakan singkatan dari:",
-    options: [
-      "A. eXample Markup Language",
-      "B. eXtra Modern Link",
-      "C. eXtensible Markup Language",
-      "D. X-Markup Language"
-    ],
-    answer: "C. eXtensible Markup Language"
-  },
-  {
     question: "Tag HTML untuk mendefinisikan internal style sheet:",
     options: [
-      "A. <script>",
-      "B. <style>",
-      "C. <css>",
-      "D. <input style>"
+      "A. &ltscript&gt",
+      "B. &ltstyle&gt",
+      "C. &ltcss&gt",
+      "D. &ltinput style&gt"
     ],
     answer: "B. <style>"
   },
   {
-    question: "Data XML dideskripsikan dengan menggunakan:",
-    options: [
-      "A. HTML",
-      "B. DTD",
-      "C. CSS",
-      "D. XSL"
-    ],
-    answer: "B. DTD"
-  },
-  {
-    question: "Output program berikut ini:",
-    code: `<?php
-for($i = 0; $i < 5; $i++) {
-    if($i == 2) {
-        continue;
-    }
-}
-echo("Nilai i : $i <br>");
-echo("Loop Selesai");
-?>`,
+    question: "Output program berikut ini:<br>code: &lt?php <br> for($i = 0; $i &lt 5; $i++) {<br>if($i == 2) {<br>continue;<br>}<br>}<br>echo(&quot;Nilai i : $i &ltbr&gt&quot;);<br>echo(&quot;Loop Selesai&quot;);<br>?&gt",
     options: [
       "A. Nilai i : 0",
       "B. Nilai i : 0\nNilai i : 1\nNilai i : 3\nNilai i : 4\nLoop Selesai",
@@ -578,16 +499,7 @@ echo("Loop Selesai");
     answer: "B. Nilai i : 0\nNilai i : 1\nNilai i : 3\nNilai i : 4\nLoop Selesai"
   },
   {
-    question: "Output dari potongan program berikut ini adalah:",
-    code: `<?php
-function tambahSatu($angka) {
-    $angka++;
-}
-
-$a = 7;
-tambahSatu($a);
-echo("Nilai a = " . $a);
-?>`,
+    question: "Output dari potongan program berikut ini adalah: <br>code: &lt?php <br>function tambahSatu($angka) { <br>$angka++; <br>} <br> <br>$a = 7; <br>tambahSatu($a); <br>echo(&quot;Nilai a = &quot; . $a);<br>?&gt",
     options: [
       "A. Nilai a = 8",
       "B. Nilai a = 6",
@@ -595,39 +507,6 @@ echo("Nilai a = " . $a);
       "D. Nilai a = 9"
     ],
     answer: "C. Nilai a = 7"
-  },
-  {
-    question: "Output dari potongan program berikut ini adalah:",
-    code: `<?php
-function testVar() {
-    $a = 3;
-    $a = 3++;
-}
-
-echo($a);
-?>`,
-    options: [
-      "A. 3",
-      "B. Error",
-      "C. 4",
-      "D. Tidak ada jawaban yang benar"
-    ],
-    answer: "B. Error"
-  },
-  {
-    question: "Statement apa yang harus diisi pada titik-titik di atas agar menghasilkan output: 'Selamat Belajar PHP'",
-    code: `<?php
-$bahasa = "PHP";
-print("\"Selamat Belajar PHP\"<BR>\n");
-//....................
-?>`,
-    options: [
-      "A. print(\"$bahasa= \\\"$bahasa\");",
-      "B. print(\"$bahasa= $bahasa\");",
-      "C. print(\"$bahasa= $bahasa\");",
-      "D. print(\"$bahasa= \\$bahasa\");"
-    ],
-    answer: "A. print(\"$bahasa= \\\"$bahasa\");"
   },
   {
     question: "Apa yang dimaksud dengan Value pada CSS?",
@@ -650,8 +529,7 @@ print("\"Selamat Belajar PHP\"<BR>\n");
     answer: "D. Window"
   },
   {
-    question: "Lengkapi atribut di bawah ini:",
-    code: `<img ....="computer.gif">`,
+    question: "Lengkapi atribut di bawah ini:<br> &ltimg ....=\"computer.gif\"&gt:",
     options: [
       "A. rsc",
       "B. src",
@@ -659,16 +537,6 @@ print("\"Selamat Belajar PHP\"<BR>\n");
       "D. rc"
     ],
     answer: "B. src"
-  },
-  {
-    question: "Di bawah ini adalah kelemahan dari HTML daripada XML kecuali:",
-    options: [
-      "A. Tidak memberikan 'informasi' tentang isi dari sebuah halaman page",
-      "B. Tampilan bias di parsing, dan tidak bisa digunakan kembali",
-      "C. Tampilan tidak bisa di parsing, dan tidak bisa digunakan kembali",
-      "D. Terbatas hanya untuk melakukan format tampilan pada web browser"
-    ],
-    answer: "D. Terbatas hanya untuk melakukan format tampilan pada web browser"
   },
   {
     question: "HTML merupakan singkatan dari:",
@@ -703,9 +571,9 @@ print("\"Selamat Belajar PHP\"<BR>\n");
   {
     question: "Manakah sintaks HTML berikut ini yang tidak valid?",
     options: [
-      "A. <font face = 'verdana, arial'>",
-      "B. <font face = 'verdana'>",
-      "C. <fontface = 'verdana'>",
+      "A. &ltfont face = 'verdana, arial'&gt",
+      "B. &ltfont face = 'verdana'&gt",
+      "C. &ltfontface = 'verdana'&gt",
       "D. Jawaban A, B, dan C salah"
     ],
     answer: "C. <fontface = 'verdana'>"
@@ -733,10 +601,10 @@ print("\"Selamat Belajar PHP\"<BR>\n");
   {
     question: "Sintaks HTML untuk mengatur agar teks di dalam sel table menjadi rata kanan:",
     options: [
-      "A. <td align='right'>",
-      "B. <td rightalign>",
-      "C. <td valign='right'>",
-      "D. <tdright>"
+      "A. &lttd align='right'&gt",
+      "B. &lttd rightalign&gt",
+      "C. &lttd valign='right'&gt",
+      "D. &lttd right&gt"
     ],
     answer: "A. <td align='right'>"
   },
@@ -803,20 +671,20 @@ print("\"Selamat Belajar PHP\"<BR>\n");
   {
     question: "Apa HTML yang benar untuk menambahkan warna latar (background)?",
     options: [
-      "A. <background>yellow</background>",
-      "B. <body color='yellow'>",
-      "C. <body bgcolor='yellow'>",
-      "D. <background color='yellow'>"
+      "A. &ltbackground>yellow&lt/background&gt",
+      "B. &ltbody color='yellow'&gt",
+      "C. &ltbody bgcolor='yellow'&gt",
+      "D. &ltbackground color='yellow'&gt"
     ],
     answer: "C. <body bgcolor='yellow'>"
   },
   {
-    question: "Selain tag <b>, untuk menebalkan teks dapat juga menggunakan:",
+    question: "Selain tag &ltb&gt;, untuk menebalkan teks dapat juga menggunakan:",
     options: [
-      "A. <fat>",
-      "B. <bold>",
-      "C. <dark>",
-      "D. <strong>"
+      "A. &ltfat&gt;",
+      "B. &lt;bold&gt;",
+      "C. &ltdark&gt;",
+      "D. &ltstrong&gt;"
     ],
     answer: "D. <strong>"
   },
@@ -851,16 +719,6 @@ print("\"Selamat Belajar PHP\"<BR>\n");
     answer: "B. Cascading Style Sheets"
   },
   {
-    question: "Deklarasi untuk mendefinisikan versi XML yang digunakan:",
-    options: [
-      "A. <xml version='1.0'>",
-      "B. <xml version='1.0.0'>",
-      "C. <xml version='1.0.1'>",
-      "D. <xml version='1.1'>"
-    ],
-    answer: "A. <xml version='1.0'>"
-  },
-  {
     question: "Statemen PHP diakhiri dengan tanda:",
     options: [
       "A. !",
@@ -873,52 +731,12 @@ print("\"Selamat Belajar PHP\"<BR>\n");
   {
     question: "Tag HTML untuk menjalankan program JavaScript yang disimpan dalam bentuk file adalah:",
     options: [
-      "A. <script href='file.js'> </script>",
-      "B. <script language='file.js'> </script>",
-      "C. <script src='file.js'> </script>",
-      "D. <script name='file.js'> </script>"
+      "A. &ltscript href='file.js'&gt &lt/script&gt",
+      "B. &ltscript language='file.js'&gt &lt/script&gt",
+      "C. &ltscript src='file.js'&gt &lt/script&gt",
+      "D. &ltscript name='file.js'&gt &lt/script&gt"
     ],
     answer: "C. <script src='file.js'> </script>"
-  },
-  {
-    question: "Contoh CMS Open Source:",
-    options: [
-      "A. V7 Content Management Suite",
-      "B. Roxen CMS",
-      "C. RedDot",
-      "D. PostNuke"
-    ],
-    answer: "D. PostNuke"
-  },
-  {
-    question: "Penulisan elemen XML yang salah di bawah ini:",
-    options: [
-      "A. <xmldocument>",
-      "B. <NAME>",
-      "C. <umur>",
-      "D. <Note>"
-    ],
-    answer: "A. <xmldocument>"
-  },
-  {
-    question: "Tag HTML yang digunakan untuk mendefinisikan internal style sheet adalah:",
-    options: [
-      "A. <style>",
-      "B. <text/style>",
-      "C. <css>",
-      "D. <script>"
-    ],
-    answer: "A. <style>"
-  },
-  {
-    question: "Pernyataan yang salah tentang XML:",
-    options: [
-      "A. Semua elemen XML harus diakhiri dengan tag penutup",
-      "B. Bersifat case sensitive",
-      "C. Elemen XML tidak boleh overlapping",
-      "D. Dokumen XML tidak harus mempunyai satu root element"
-    ],
-    answer: "D. Dokumen XML tidak harus mempunyai satu root element"
   },
   {
     question: "Manakah penulisan CSS yang benar?",
@@ -929,16 +747,6 @@ print("\"Selamat Belajar PHP\"<BR>\n");
       "D. body: color=blue"
     ],
     answer: "D. body: color=blue"
-  },
-  {
-    question: "DTD merupakan singkatan dari:",
-    options: [
-      "A. Dynamic Type Definition",
-      "B. Direct Type Definition",
-      "C. Document Type Definition",
-      "D. Dynamic Type Declaration"
-    ],
-    answer: "C. Document Type Definition"
   },
   {
     question: "Tag <a> dan </a> digunakan untuk:",
@@ -961,37 +769,14 @@ print("\"Selamat Belajar PHP\"<BR>\n");
     answer: "A. /* ini komentar */"
   },
   {
-    question: "Kelebihan dari XML adalah:",
-    options: [
-      "A. Informasi dapat dipertukarkan dari satu sistem ke sistem yang berbeda",
-      "B. Pelantufolirsman script XML lebih mudah dibandingkan HTML",
-      "C. Informasi membutuhkan memori yang kecil",
-      "D. Informasi yang dipertukarkan hanya berbentuk karakter"
-    ],
-    answer: "A. Informasi dapat dipertukarkan dari satu sistem ke sistem yang berbeda"
-  },
-  {
     question: "Script PHP dimulai dan diakhiri dengan:",
     options: [
-      "A. <?php ... ?>",
-      "B. <?php> .... </?>",
-      "C. <script> </script>",
-      "D. <&> </&>"
+      "A. &lt?php ... ?&gt",
+      "B. &lt?php&gt .... &lt/?&gt",
+      "C. &ltscript&gt &lt/script&gt",
+      "D. &lt&&gt &lt/&&gt"
     ],
     answer: "A. <?php ... ?>"
-  },
-  {
-    question: "Output dari program JavaScript berikut adalah:",
-    code: `<script type="text/javascript">
-document.write(Math.max(5,7,8,3,10,11) + "<br />");
-</script>`,
-    options: [
-      "A. 11",
-      "B. 10",
-      "C. 3 5 7 8 10 11",
-      "D. 11 10 8 7 5 3"
-    ],
-    answer: "A. 11"
   },
   {
     question: "Bagaimana membuat fungsi pada JavaScript?",
@@ -1004,26 +789,6 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
     answer: "D. function myFunction()"
   },
   {
-    question: "Pernyataan yang paling tepat tentang CMS:",
-    options: [
-      "A. Sebuah sistem yang dibutuhkan untuk menyusun dan menyajikan informasi dengan format yang tidak mengandung format standard",
-      "B. Sebuah sistem untuk menampilkan informasi dan berfokus pada bagaimana informasi terlihat",
-      "C. Sebuah sistem yang memberikan kemudahan kepada para penggunanya dalam mengelola dan mengadakan perubahan isi sebuah website dinamis tanpa sebelumnya dibekali pengetahuan tentang hal-hal yang bersifat teknis",
-      "D. Sebuah sistem untuk memperindah tampilan halaman web"
-    ],
-    answer: "C. Sebuah sistem yang memberikan kemudahan kepada para penggunanya dalam mengelola dan mengadakan perubahan isi sebuah website dinamis tanpa sebelumnya dibekali pengetahuan tentang hal-hal yang bersifat teknis"
-  },
-  {
-    question: "Apa HTML yang benar untuk menambahkan warna latar (background)?",
-    options: [
-      "A. <background>yellow</background>",
-      "B. <body color=\"yellow\">",
-      "C. <body bgcolor=\"yellow\">",
-      "D. <background color=\"yellow\">"
-    ],
-    answer: "C. <body bgcolor=\"yellow\">"
-  },
-  {
     question: "<!ELEMENT hewan (kucing)> artinya:",
     options: [
       "A. Elemen hewan dapat berisi elemen lain",
@@ -1034,50 +799,10 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
     answer: "D. Elemen hewan hanya boleh memiliki satu elemen kucing"
   },
   {
-    question: "Selain tag <b>, untuk menebalkan teks dapat juga menggunakan:",
-    options: [
-      "A. <strong>",
-      "B. <bold>",
-      "C. <dark>",
-      "D. <fat>"
-    ],
-    answer: "A. <strong>"
-  },
-  {
-    question: "Manakah sintaks HTML berikut ini yang tidak valid?",
-    options: [
-      "A. <fontface = \"verdana\">",
-      "B. <font face = \"verdana\">",
-      "C. <font face = \"verdana, arial\">",
-      "D. Jawaban A, B, dan C salah"
-    ],
-    answer: "A. <fontface = \"verdana\">"
-  },
-  {
-    question: "Salah satu ciri JavaScript yang membedakan dengan Java adalah:",
-    options: [
-      "A. Hubungan statis, objek harus ada saat program dikompilasi",
-      "B. JavaScript dapat diinterpretasikan langsung oleh browser",
-      "C. Kode program tidak dapat diakses",
-      "D. JavaScript dan Java adalah sama"
-    ],
-    answer: "B. JavaScript dapat diinterpretasikan langsung oleh browser"
-  },
-  {
     question: "Output script berikut:",
     script: "<script type=\"text/javascript\"> document.write(Math.round(8.51)); </script>",
     options: ["A. 8", "B. 9", "C. 8.5", "D. 8.51"],
     answer: "B. 9"
-  },
-  {
-    question: "Penulisan nilai atribut pada XML yang benar:",
-    options: [
-      "A. <pesan dari=\"danang\">",
-      "B. <pesan dari= $danang >",
-      "C. <pesan dari= @danang >",
-      "D. <pesan dari='danang'>"
-    ],
-    answer: "A. <pesan dari=\"danang\">"
   },
   {
     question: "Untuk menghubungkan PHP dengan database MySQL menggunakan perintah:",
@@ -1092,10 +817,10 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
   {
     question: "Jika kita hendak menggunakan external style sheet, maka HTML yang benar adalah:",
     options: [
-      "A. <style src=\"mainstyle.css\">",
-      "B. <stylesheet>mainstyle.css</stylesheet>",
-      "C. <link rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\">",
-      "D. <link url=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\">"
+      "A. &ltstyle src=\"mainstyle.css\"&gt",
+      "B. &ltstylesheet>mainstyle.css</stylesheet&gt",
+      "C. &ltlink rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\"&gt",
+      "D. &ltlink url=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\"&gt"
     ],
     answer: "C. <link rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\">"
   },
@@ -1123,10 +848,10 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
   {
     question: "Tag HTML untuk membuat text area adalah:",
     options: [
-      "A. <input type=\"textarea\">",
-      "B. <input type=\"textbox\">",
-      "C. <input text>",
-      "D. <textarea>"
+      "A. &ltinput type=\"textarea\"&gt",
+      "B. &ltinput type=\"textbox\"&gt",
+      "C. &ltinput text&gt",
+      "D. &lttextarea&gt"
     ],
     answer: "D. <textarea>"
   },
@@ -1139,16 +864,6 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
       "D. text-style"
     ],
     answer: "A. font-size"
-  },
-  {
-    question: "Bagaimana cara mendefinisikan DTD secara eksternal?",
-    options: [
-      "A. <!DOCTYPE hewan SYSTEM \"hewan.dtd\" >",
-      "B. <!DOCTYPE hewan SYSTEM \"hewan.dtd\" />",
-      "C. <?DOCTYPE hewan SYSTEM \"hewan.dtd\" ?>",
-      "D. Semua jawaban salah"
-    ],
-    answer: "A. <!DOCTYPE hewan SYSTEM \"hewan.dtd\" >"
   },
   {
     question: "Nama web server pada XAMPP adalah:",
@@ -1183,10 +898,10 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
   {
     question: "Sintaks HTML untuk mengatur agar teks di dalam sel table menjadi rata kiri:",
     options: [
-      "A. <td leftalign>",
-      "B. <td align=\"left\">",
-      "C. <td valign=\"left\">",
-      "D. <tdleft>"
+      "A. &lttd leftalign&gt",
+      "B. &lttd align=\"left\"&gt",
+      "C. &lttd valign=\"left\"&gt",
+      "D. &lttdleft&gt"
     ],
     answer: "B. <td align=\"left\">"
   },
@@ -1209,26 +924,6 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
       "D. font-color:"
     ],
     answer: "C. color:"
-  },
-  {
-    question: "Aturan yang harus dimiliki oleh dokumen XML dijelaskan pada:",
-    options: [
-      "A. HTML",
-      "B. Atribut",
-      "C. Elemen XML",
-      "D. DTD"
-    ],
-    answer: "D. DTD"
-  },
-  {
-    question: "Di bawah ini adalah manfaat CMS, kecuali:",
-    options: [
-      "A. Memperindah tampilan halaman web",
-      "B. Mempercepat proses ‘update’ isi web",
-      "C. Memberikan fasilitas kepada para penggunanya untuk mengelola bagian atau isi mana saja yang akan ditampilkan",
-      "D. Memberikan kemungkinan kepada sebuah website untuk membagi isinya kepada website−website yang lain"
-    ],
-    answer: "D. Memberikan kemungkinan kepada sebuah website untuk membagi isinya kepada website−website yang lain"
   },
   {
     question: "Properti CSS yang digunakan untuk mengatur warna latar:",
@@ -1300,26 +995,6 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
     ],
     answer: "C. Diperbolehkan menggunakan tanda baca"
   },
-  {
-    question: "Kelebihan dari XML adalah:",
-    options: [
-        "A. Informasi dapat dipertukarkan dari satu sistem ke sistem yang berbeda platform",
-        "B. Penulisan script XML lebih mudah dibandingkan dari HTML",
-        "C. Informasi membutuhkan memori yang kecil",
-        "D. Informasi yang dipertukarkan hanya berbentuk karakter"
-    ],
-    answer: "A. Informasi dapat dipertukarkan dari satu sistem ke sistem yang berbeda platform"
-    },
-    {
-        question: "Tiga jenis tipe data yang ada pada Perl adalah:",
-        options: [
-            "A. Integer, array, hash",
-            "B. Integer, string, hash",
-            "C. Skalar, string, hash",
-            "D. Skalar, array, hash"
-        ],
-        answer: "D. Skalar, array, hash"
-    },
     {
         question: "Aturan penulisanan script dengan menggunakan CSS adalah:",
         options: [
@@ -1341,24 +1016,14 @@ document.write(Math.max(5,7,8,3,10,11) + "<br />");
         answer: "B. Sepotong data yang disimpan dalam harddisk local milik pengunjung dan digunakan oleh halaman web dalam mengingat informasi"
     },
     {
-        question: "Output dari script berikut adalah: <script type='text/javascript'> document.write(Math.max(5,7,8,3,10,11) + '<br />'); </script>",
+        question: "Output dari script berikut adalah: <br> &ltscript type='text/javascript'&gt <br> document.write(Math.max(5,7,8,3,10,11) + '&ltbr&gt'); <br> &lt/script&gt",
         options: [
             "A. 10",
             "B. 11",
-            "C. 3 5 7 8 10 11",
-            "D. 11 10 8 7 5 3"
+            "C. 3 <br> 5 <br> 7 <br> 8 <br> 10 <br>  11",
+            "D. 11 <br> 10 <br> 8 <br> 7 <br> 5 <br> 3"
         ],
         answer: "B. 11"
-    },
-    {
-        question: "Manakah pemberian nama yang salah untuk elemen XML?",
-        options: [
-            "A. <age>",
-            "B. <NAME>",
-            "C. <first name>",
-            "D. Semua jawaban salah"
-        ],
-        answer: "C. <first name>"
     },
     {
         question: "Komentar dalam program Perl dengan simbol:",
